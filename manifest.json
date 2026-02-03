@@ -1,11 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "Field Visibility Toggler",
-  "version": "1.0",
+  "name": "Hidden Image Detector",
+  "version": "0.0.1",
+  "description": "Detects, as well as reverses hidden images using the visibility tag on a webpage.",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": ["<all_urls>"],
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
       "js": ["config.js", "content.js"]
     }
-  ]
+  ],
+  "author": "Your Name",
+  "homepage_url": "https://github.com/BrentanRath/Hidden-Image-Detector-Extension"
 }
