@@ -41,3 +41,7 @@ Install as a browser extension and configure the `CONFIG` object in `content.js`
 ---
 
 **Note:** Use responsibly and in accordance with website.
+
+---
+
+*This README.md was generated with AI (GitHub Copilot, model: Claude Sonnet 4.5, commit: 2948a11).*
