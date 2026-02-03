@@ -43,4 +43,4 @@ Install as a browser extension and configure the `CONFIG` object in `content.js`
 
 ---
 
-**Note:** Use responsibly and in accordance with website.
+**Note:** Use responsibly and in accordance with website rules and policy. I am not responsible for any misconduct of this code, or any variations of it.
