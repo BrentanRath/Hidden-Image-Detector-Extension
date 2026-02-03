@@ -49,3 +49,6 @@ if (!CONFIG.shouldRunOnThisPage()) {
 	const observer = new MutationObserver(showAllImages);
 	observer.observe(document.body, { childList: true, subtree: true });
 }
+if (CONFIG.shouldRunOnThisPage()) {
+	console.log('Extension developed by Brentan Rath: https://github.com/BrentanRath');
+}
