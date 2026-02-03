@@ -2,7 +2,7 @@ if (!CONFIG.shouldRunOnThisPage()) {
 	console.log('Not running on this URL:', window.location.href);
 } else {
 	console.log('Running on:', window.location.href);
-	console.log('=== Searching for hidden images ===');
+	console.log('Searching for hidden images:');
 	let hiddenCount = 0;
 	document.querySelectorAll('img').forEach(img => {
 		if (CONFIG.findHiddenElements) {
@@ -16,10 +16,10 @@ if (!CONFIG.shouldRunOnThisPage()) {
 				console.log('---');
 			}
 		}
-	});
+	});``
 	if (CONFIG.changeHiddenElements) {
 		if (hiddenCount === 0) {
-			console.log('✓ No hidden images found!');
+			console.log('No hidden images found!');
 		} else {
 			console.log(`Found ${hiddenCount} hidden image(s)`);
 		}
